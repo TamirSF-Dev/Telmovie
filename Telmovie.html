@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telmovie</title>
+
+    <script src="Telmovie-script.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&family=Roboto:ital,wght@0,400;0,700;1,300;1,400&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href = "Telmovie-style.css">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar" id = "sidebar">
+            <div class="logo" id = "logo" >
+                <i class= 'bx bx-camera-movie'  id = "icon"></i>
+                <span class = "logodetails" class = "icon-content" class="roboto-bold">
+                    telmovie
+                </span>
+            </div>
+            <div class = "sidebar-contents roboto-light-italic">
+                <a href = "#" class="nav-item">
+                    <span>
+                        <i class='bx bx-search' class = "icon"></i> 
+                        <p class = "icon-content">
+                            Search
+                        </p>
+                    </span>
+                </a>
+                <a href = "#" class="nav-item">
+                    <span>
+                        <i class='bx bx-home-alt-2' class = "icon"></i> 
+                        <p class = "icon-content">
+                            Home
+                        </p>
+                    </span>
+                </a>
+                <a href = "#" class="nav-item">
+                    <span>
+                        <i class='bx bx-category' class = "icon"></i> 
+                        <p class = "icon-content">
+                            Categories
+                        </p>
+                    </span>
+                </a>
+                <a href = "#" class="nav-item">
+                    <span>
+                        <i class='bx bx-heart' class = "icon"></i> 
+                        <p class = "icon-content">
+                            Wishlist
+                        </p>
+                    </span>
+                </a>
+                <a href = "#" class="nav-item">
+                    <span>
+                        <i class='bx bxs-cog' class = "icon" ></i> 
+                        <p class = "icon-content">
+                            Settings
+                        </p>
+                    </span>
+                </a>
+                <a href = "#" class="nav-item">
+                    <span>
+                        <i class='bx bxs-user-circle' class = "icon"></i> 
+                        <p class = "icon-content">
+                            Profile
+                        </p>
+                    </span>
+                </a>
+            </div>
+        </div>
+        
+        <div class="homepage">
+            <div class="carousel">
+                <div class="slide-list">
+                    <div class="avengers-eg Slides">
+                        <div class="avengers-bg">
+                            <div class="flex-cont">
+                                
+                                <div class="movieText roboto-light-italic">
+                                    <h2>Avengers: Endgame</h2>
+                                    <p class="movieinfo"><strong>Rating:</strong> PG-13</p>
+                                    <p class="movieinfo"><strong>Release Date:</strong> April 26, 2019</p>
+                                    <p class="movieinfo"><strong>Genres:</strong> Action, Adventure, Sci-Fi</p>
+                                    <p class="movieinfo"><strong>Runtime:</strong> 181 minutes</p>
+                                    <p class="description"><strong>Description:</strong>  "Avengers: Endgame" is the epic culmination of the Marvel Cinematic Universe's Infinity Saga. After the devastating events of "Avengers: Infinity War," where Thanos wiped out half of all life in the universe with a snap of his fingers, the remaining Avengers and their allies must come together to attempt one last mission. They embark on a desperate quest to reverse Thanos' actions and restore order to the universe. The film explores themes of loss, sacrifice, and redemption as Earth's mightiest heroes confront their greatest challenge yet.</p>
+                                    <a class="watch-btn"><i class="bx bx-play"></i>Watch Now</a>
+                                </div>
+                                <div class="moviePoster">
+                                    <img class="pic" src="https://images.thequint.com/thequint/2019-04/7bbf3477-8596-4a1b-9150-d67fc0eedf13/w4botl43ntm21.png?rect=0%2C0%2C1688%2C950&auto=format%2Ccompress&fmt=webp" alt="avengers movie poster">
+                                </div> 
+                            </div>
+                            <ul class="dot-navigation">
+                                <li class="dot"></li>
+                                <li class="dot"></li>
+                                <li class="dot"></li>
+                                <li class="dot"></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="breaking-bad Slides fade">
+                        <div class="breakingBad-bg">
+                            <div class="flex-cont">
+
+                                <div class="movieText roboto-light-italic">
+                                    <h2>Breaking Bad</h2>
+                                    <p class="movieinfo"><strong>Rating:</strong> TV-MA</p>
+                                    <p class="movieinfo"><strong>Release Year:</strong> 2008-2013</p>
+                                    <p class="movieinfo"><strong>Number of Episodes:</strong> 62</p>
+                                    <p class="movieinfo"><strong>Genre:</strong> Crime, Drama, Thriller</p>
+                                    <p class="description"><strong>Description:</strong>When chemistry teacher Walter White is diagnosed with Stage III cancer and given only two years to live, he decides he has nothing to lose. He lives with his teenage son, who has cerebral palsy, and his wife, in New Mexico. Determined to ensure that his family will have a secure future, Walt embarks on a career of drugs and crime. He proves to be remarkably proficient in this new world as he begins manufacturing and selling methamphetamine with one of his former students. The series tracks the impacts of a fatalistic worldview.</p>
+                                    <a class="watch-btn"><i class="bx bx-play"></i>Watch Now</a>
+                                </div>
+                                <div class="moviePoster">
+                                    <img class="pic" src="http://fr.web.img5.acsta.net/pictures/19/06/18/12/11/3956503.jpg" alt="avengers movie poster">
+                                </div>
+                            </div>
+                            <ul class="dot-navigation">
+                                <li class="dot"></li>
+                                <li class="dot"></li>
+                                <li class="dot"></li>
+                                <li class="dot"></li>
+                            </ul>  
+                        </div>
+                    </div>
+
+                    <div class="demonslayer Slides fade">
+                        <div class="demonslayer-bg">
+                            <div class="flex-cont">
+
+                                <div class="movieText roboto-light-italic">
+                                    <h2>Demon Slayer: Kimetsu no Yaiba the Movie: Mugen Train</h2>
+                                    <p class="movieinfo"><strong>Rating:</strong> PG-13</p>
+                                    <p class="movieinfo"><strong>Release Date:</strong> October 16, 2020 (Japan)</p>
+                                    <p class="movieinfo"><strong>Genres:</strong> Animation, Action, Adventure</p>
+                                    <p class="movieinfo"><strong>Runtime:</strong> 117 minutes</p>
+                                    <p class="description"><strong>Description:</strong> Tanjiro Kamado and his friends from the Demon Slayer Corps accompany the Pillar, Kyojuro Rengoku, on a mission aboard the Mugen Train to investigate a series of disappearances. They face the powerful demon, Enmu, who manipulates dreams to trap them in an endless sleep.</p>
+                                    <a class="watch-btn"><i class="bx bx-play"></i>Watch Now</a>
+                                </div>
+                                <div class="moviePoster">
+                                    <img class="pic" src="http://images6.fanpop.com/image/photos/43500000/Demon-slayer-Mugen-Train-poster-by-finearts-kimetsu-no-yaiba-43585990-720-839.jpg" alt="avengers movie poster">
+                                </div>
+                            </div>
+                            <ul class="dot-navigation">
+                                <li class="dot"></li>
+                                <li class="dot"></li>
+                                <li class="dot"></li>
+                                <li class="dot"></li>
+                            </ul>  
+                        </div>
+                    </div>
+                    
+                
+                    <div class="uncharted Slides fade">
+                        <div class="uncharted-bg">
+                            <div class="flex-cont">
+
+                                <div class="movieText roboto-light-italic">
+                                    <h2>Uncharted</h2>
+                                    <p class="movieinfo"><strong>Rating:</strong> PG-13</p>
+                                    <p class="movieinfo"><strong>Release Date:</strong> February 18, 2022</p>
+                                    <p class="movieinfo"><strong>Genres:</strong> Action, Adventure</p>
+                                    <p class="movieinfo"><strong>Runtime:</strong> 116 minutes</p>
+                                    <p class="description"><strong>Description:</strong> "Uncharted" follows the journey of Nathan Drake, a young street-smart treasure hunter who uncovers the truth behind a legendary treasure. Alongside seasoned adventurer Victor Sullivan, Drake races across the globe to uncover historical mysteries and face formidable enemies in a high-stakes pursuit of treasure and glory.</p>
+                                    <a href="#" class="watch-btn"><i class="bx bx-play"></i>Watch Now</a>
+                                </div>
+                                <div class="moviePoster">
+                                    <img class="pic" src="https://pics.filmaffinity.com/uncharted-417211360-large.jpg" alt="Uncharted movie poster">
+                                </div>
+                            </div>
+                            <ul class="dot-navigation">
+                                <li class="dot"></li>
+                                <li class="dot"></li>
+                                <li class="dot"></li>
+                                <li class="dot"></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <button class="prev"><</button>
+                <button class="next">></button>
+            </div>
+            
+            <h2 class="heading">Popular Movies</h2>
+            
+
+                <div class="mrow1">
+                    <div class="moviecard">
+                        <div class="movie-img">
+                            
+                            <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2021/12/Uncharted-poster.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <h3>Uncharted</h3>
+                            <p><strong>2022 . Adventure . 13+</strong></p>
+                            <p>"Uncharted" is an action-packed adventure film inspired by the video game series. Nathan Drake embarks on a perilous quest in pursuit of ancient treasures.</p>
+                            <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                        </div>
+                    </div>
+
+                    <div class="moviecard">
+                        <div class="movie-img">
+                            <img src="https://medialb.ultimedia.com/multi/3rpkx/q8skz8f-O.jpg" alt="The Lost City">
+                        </div>
+                        <div class="details">
+                            <h3>John Wick 4</h3>
+                            <p><strong>2023 . Action/Adventure . 13+</strong></p>
+                            <p>John Wick 4 continues the saga of the legendary hitman, navigating alliances and facing deadly adversaries in relentless pursuit.</p>
+                            <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                        </div>
+                    </div>
+                    
+                    <div class="moviecard">
+                        <div class="movie-img">
+                            <img src="https://lumiere-a.akamaihd.net/v1/images/p_drstrangeinthemultiverseofmadness_245_476cabb1.jpeg" alt="Doctor Strange in the Multiverse of Madness">
+                        </div>
+                        <div class="details">
+                            <h3>Doctor Strange in the Multiverse of Madness</h3>
+                            <p><strong>2022 . Adventure . 13+</strong></p>
+                            <p>'Doctor Strange in the Multiverse of Madness' the Sorcerer Supreme battles dark forces across alternate realities, confronting terrifying threats to preserve existence and reality itself.</p>
+                            <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                        </div>
+                    </div>
+                    
+                    <div class="moviecard">
+                        <div class="movie-img">
+                            <img src="https://www.themoviedb.org/t/p/original/vtC3yHKjWQzfNir2o6LP9EgumFW.jpg" alt="The Adam Project">
+                        </div>
+                        <div class="details">
+                            <h3>The Adam Project</h3>
+                            <p><strong>2022 . Adventure . 13+</strong></p>
+                            <p>In "The Adam Project," a time-traveling fighter pilot teams up with his younger self and his late father to come to terms with his past while saving the future from a malevolent corporation.</p>
+                            <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                        </div>
+                    </div>
+                    
+                    <div class="moviecard">
+                        <div class="movie-img">
+                            <img src="https://www.movienewsletters.net/photos/275276R1.jpg" alt="Morbius">
+                        </div>
+                        <div class="details">
+                            <h3>Morbius</h3>
+                            <p><strong>2022 . Adventure . 13+</strong></p>
+                            <p>"Morbius" tells the story of a biochemist who tries to cure himself of a rare blood disease, only to inadvertently infect himself with a form of vampirism that gives him superhuman abilities.</p>
+                            <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                        </div>
+                    </div>
+
+                    <div class="moviecard">
+                        <div class="movie-img">
+                            <img src="http://cdn.collider.com/wp-content/uploads/2018/04/avengers-infinity-war-imax-poster.jpg" alt="The Lost City">
+                        </div>
+                        <div class="details">
+                            <h3>Avengers Infinity war</h3>
+                            <p><strong>2019 . Action/Adventure . 13+</strong></p>
+                            <p>"Avengers: Infinity War" sees Earth's mightiest heroes unite with the Guardians of the Galaxy to stop Thanos from collecting the Infinity Stones and unleashing his destructive plan to balance the universe.</p>
+                            <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                        </div>
+                    </div>
+                </div>    
+
+                <div class="mrow2">
+
+                    <div class="moviecard">
+                        <div class="movie-img">
+                            <img src="https://1.bp.blogspot.com/-l7aTAUwMI58/X6O7G6yslfI/AAAAAAAAAHM/BRXfZCuEU6caMvMhFZznB9VhFOwLQKGUQCLcBGAsYHQ/s1697/111c5c9ad99661af2d80e38948cf29d8.jpg" alt="Sci-Fi Movie">
+                        </div>
+                        <div class="details">
+                            <h3>Interstellar</h3>
+                            <p><strong>2014 . Sci-Fi . PG-13</strong></p>
+                            <p>"Interstellar" is a mind-bending sci-fi epic where humanity's future hinges on a perilous voyage through a wormhole to find a habitable planet as Earth faces ecological collapse and time dilation challenges.</p>
+                            <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="moviecard">
+                        <div class="movie-img">
+                            <img src="https://artchatterblog.files.wordpress.com/2014/02/movieposter.jpg" alt="Comedy Movie">
+                        </div>
+                        <div class="details">
+                            <h3>Hangover</h3>
+                            <p><strong>2009 . Comedy . PG</strong></p>
+                            <p>"The Hangover" is a wild comedy where a Las Vegas bachelor party gone wrong leaves three friends in a hilarious race against time to find their missing groom before the wedding.</p>
+                            <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="moviecard">
+                        <div class="movie-img">
+                            <img src="https://movieswithaplottwist.com/wp-content/uploads/2016/03/Inception-movie-poster.jpg" alt="Drama Movie">
+                        </div>
+                        <div class="details">
+                            <h3>Inception</h3>
+                            <p><strong>2010 . Sci-fi/Thriller . PG-13</strong></p>
+                            <p>A skilled thief enters dreams to implant ideas, navigating surreal landscapes and subconscious defenses while grappling with personal demons, blurring the lines between reality and illusion.</p>
+                            <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="moviecard">
+                        <div class="movie-img">
+                            <img src="https://image.tmdb.org/t/p/original/1Oc6ffNQf9agbeKj2fjhbAnmdpb.jpg" alt="Horror Movie">
+                        </div>
+                        <div class="details">
+                            <h3>The Conjuring 2</h3>
+                            <p><strong>2016 . Horror . R</strong></p>
+                            <p>"The Conjuring 2" is a horror sequel based on true events where paranormal investigators Ed and Lorraine Warren confront a malicious spirit terrorizing a London family, testing their faith and courage against supernatural forces.</p>
+                            <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="moviecard">
+                        <div class="movie-img">
+                            <img src="https://www.cinemaclock.com/images/posters/1000x1500/72/avatar-the-way-of-water-2022-us-poster.jpg" alt="Romance Movie">
+                        </div>
+                        <div class="details">
+                            <h3>Avatar The Way Of Water</h3>
+                            <p><strong>2023 . sci-fi . PG13+</strong></p>
+                            <p>"Avatar: The Way of Water" continues the epic saga as Jake Sully and Neytiri navigate Pandora's oceans, encountering new threats and uncovering ancient mysteries amidst a quest for harmony and survival.</p>
+                            <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                        </div>
+                    </div>
+                    
+                    <div class="moviecard">
+                        <div class="movie-img">
+                            <img src="https://wallpapercave.com/wp/wp7836444.jpg" alt="Romance Movie">
+                        </div>
+                        <div class="details">
+                            <h3>Demon Slayer The Infinite Train</h3>
+                            <p><strong>2020 . Animated . PG13+</strong></p>
+                            <p>The movie follows Tanjiro, Zenitsu, and Inosuke aboard a perilous locomotive where they confront a powerful demon testing their resolve in a relentless battle for survival.</p>
+                            <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                        </div>
+                    </div>
+
+
+                </div>
+            <h2 class="heading roboto-light-italic">Popular Series</h2>
+
+            <div class="srow1">
+                <div class="moviecard">
+                    <div class="movie-img">
+                        <img src="https://wallpapercave.com/wp/wp7959206.jpg" alt="Stranger Things">
+                    </div>
+                    <div class="details">
+                        <h3>Stranger Things</h3>
+                        <p><strong>2016 - Present . Sci-Fi/Horror . TV-14</strong></p>
+                        <p>Set in the 1980s, this supernatural series follows a group of kids who encounter mysterious events and a girl with psychokinetic abilities.</p>
+                        <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                    </div>
+                </div>
+            
+                <div class="moviecard">
+                    <div class="movie-img">
+                        <img src="https://wallpapercave.com/wp/wp8326482.jpg" alt="Attack On Titan">
+                    </div>
+                    <div class="details">
+                        <h3>Attack on Titan</h3>
+                        <p><strong>2013 - 2021 . Anime/Action . TV-MA</strong></p>
+                        <p>"Attack on Titan" follows humanity's struggle for survival against giant humanoid creatures known as Titans, exploring themes of sacrifice, survival, and the consequences of war.</p>
+                        <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                    </div>
+                </div>
+            
+                <div class="moviecard">
+                    <div class="movie-img">
+                        <img src="https://picfiles.alphacoders.com/362/thumb-1920-362562.jpg" alt="Black Mirror">
+                    </div>
+                    <div class="details">
+                        <h3>Death Note</h3>
+                        <p><strong>2006 - 2007 . Anime/Thriller . TV-MA</strong></p>
+                        <p>"Death Note" follows a high school student who gains the ability to kill anyone whose name he writes in a supernatural notebook, exploring themes of justice, morality, and power.</p>
+                        <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                    </div>
+                </div>
+            
+                <div class="moviecard">
+                    <div class="movie-img">
+                        <img src="http://www.hoodedutilitarian.com/wp-content/uploads/2015/09/narcos0004.jpg" alt="Narcos">
+                    </div>
+                    <div class="details">
+                        <h3>Narcos</h3>
+                        <p><strong>2015 - 2017 . Crime/Drama . TV-MA</strong></p>
+                        <p>This crime drama chronicles the rise and fall of drug cartels in Colombia, led by infamous kingpin Pablo Escobar and other notorious figures.</p>
+                        <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                    </div>
+                </div>
+            
+                <div class="moviecard">
+                    <div class="movie-img">
+                        <img src="https://cdna.artstation.com/p/assets/images/images/046/103/336/large/illusion-design-money-heist-poster-min.jpg?1644314844" alt="Money Heist">
+                    </div>
+                    <div class="details">
+                        <h3>Money Heist</h3>
+                        <p><strong>2017 - 2021 . Crime/Thriller . TV-MA</strong></p>
+                        <p>This Spanish heist crime drama follows a group of robbers planning and executing heists under the guidance of the mysterious figure known as "The Professor."</p>
+                        <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                    </div>
+                </div>
+            
+                <div class="moviecard">
+                    <div class="movie-img">
+                        <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/06/the-witcher-netflix-poster.jpg" alt="The Witcher">
+                    </div>
+                    <div class="details">
+                        <h3>The Witcher</h3>
+                        <p><strong>2019 - Present . Fantasy/Adventure . TV-MA</strong></p>
+                        <p>Based on the book series, this fantasy epic follows Geralt of Rivia, a monster hunter, navigating a world filled with sorcery, politics, and intrigue.</p>
+                        <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="srow2">
+                <div class="moviecard">
+                    <div class="movie-img">
+                        <img src="https://www.showbizjunkies.com/wp-content/uploads/2020/07/umbrella-academy-season-2-official-poster.jpg" alt="The Umbrella Academy">
+                    </div>
+                    <div class="details">
+                        <h3>The Umbrella Academy</h3>
+                        <p><strong>2019 - Present . Action/Comedy . TV-MA</strong></p>
+                        <p>This superhero series follows a dysfunctional family of adopted siblings with extraordinary abilities as they uncover dark family secrets and fight to save the world.</p>
+                        <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                    </div>
+                </div>
+            
+                <div class="moviecard">
+                    <div class="movie-img">
+                        <img src="https://www.newdvdreleasedates.com/images/movies/peaky-blinders-2013.jpg" alt="Bridgerton">
+                    </div>
+                    <div class="details">
+                        <h3>Peaky Blinders</h3>
+                        <p><strong>2013 - 2019 . Crime/Drama . TV-MA</strong></p>
+                        <p>"Peaky Blinders" follows the Shelby crime family in post-World War I Birmingham, navigating the criminal underworld, political intrigue, and family rivalries with style and ambition.</p>
+                        <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                    </div>
+                </div>
+            
+                <div class="moviecard">
+                    <div class="movie-img">
+                        <img src="https://www.themoviedb.org/t/p/original/nvAPotUDNcKStSOv2ojGZBNOX8A.jpg" alt="The Queen's Gambit">
+                    </div>
+                    <div class="details">
+                        <h3>One Piece</h3>
+                        <p><strong>1999 - Present . Anime/Action/Adventure . TV-14</strong></p>
+                        <p>"One Piece" follows Monkey D. Luffy and his pirate crew in their quest to find the ultimate treasure, the One Piece, while encountering powerful foes and making new friends.</p>
+                        <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                    </div>
+                </div>
+            
+                <div class="moviecard">
+                    <div class="movie-img">
+                        <img src="https://asianwiki.com/images/0/0e/Squid_Game-p2.jpg" alt="Squid Game">
+                    </div>
+                    <div class="details">
+                        <h3>Squid Game</h3>
+                        <p><strong>2021 . Drama/Thriller . TV-MA</strong></p>
+                        <p>This South Korean survival drama follows contestants in deadly children's games where the stakes are life and death, revealing societal critique and personal desperation.</p>
+                        <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                    </div>
+                </div>
+            
+                <div class="moviecard">
+                    <div class="movie-img">
+                        <img src="http://fr.web.img5.acsta.net/pictures/19/06/18/12/11/3956503.jpg" alt="Arcane">
+                    </div>
+                    <div class="details">
+                        <h3>Breaking Bad</h3>
+                        <p><strong>2008 - 2013 . Crime/Drama/Thriller . TV-MA</strong></p>
+                        <p>Walter White, a high school chemistry teacher turned meth manufacturer, as he descends into a dangerous criminal underworld to secure his family's financial future.</p>
+                        <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                    </div>
+                </div>
+            
+                <div class="moviecard">
+                    <div class="movie-img">
+                        <img src="https://m.media-amazon.com/images/M/MV5BNDJjMzc4NGYtZmFmNS00YWY3LThjMzQtYzJlNGFkZGRiOWI1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" alt="The Witcher: Blood Origin">
+                    </div>
+                    <div class="details">
+                        <h3>Lucifer</h3>
+                        <p><strong>2016 - 2021 . Crime/Drama/Fantasy . TV-14</strong></p>
+                        <p>Lucifer Morningstar, the Devil, who abandons Hell for Los Angeles where he runs a nightclub and becomes a consultant to the LAPD, solving crimes.</p>
+                        <span><button class="w-btn">watch now</button> <i class='bx bx-heart wishl'></i></span>
+                    </div>
+                </div>
+            
+                
+            </div>
+            
+            
+        </div>
+               
+            
+        
+    </div>
+</body>
+</html>
